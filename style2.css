@@ -1,0 +1,33 @@
+#banner{
+	width: 100%;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+h1{
+ 	color: black;
+    text-align: left;
+ 	font-size: 400%;
+ 	font-family: arial;
+ 	color: white;
+ 	letter-spacing: 10px;
+ 	transform: translate(20%, 1000%);
+ }
+
+ #logo{
+ 	width: 20%;
+ 	height: 200px;
+ 	transform: translate(20%,20%);
+ }
+
+ #topBanner{
+ 	display: flex;
+ }
+
+ #logo,h1, #topBanner>h2{
+ 	position: absolute;
+ }
+
